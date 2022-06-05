@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#fondo1{
+    background-color: papayawhip;
+    
+}
+#fondo2{
+
+
+}
+
+
+.margin__imagenes__inicio{
+    display: flex;
+    justify-content: space-around;
+    height: 570%;
+    position: relative;
+    left: 50%;
+}
+h1{
+     color: rgb(84, 20, 144);
+}
+
+.menu__TituloCategorias{
+    color: mediumorchid;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    position: relative;
+    right: 50%;
+}
+
+.inicio__categorias {
+color: rgb(110, 81, 227);
+font-size: 20px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+.inicio__tituloYourDesign {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 50px;
+position: relative;
+left: 88%;
+}
+.enlinea {
+    display:inline-block
+}
+
+
+.trabajos__texto {
+    margin-bottom: 10%;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:large;
+    align-items: center;
+}
+
+
+.videos__trabajos {
+  width: 60%;
+  height: 400px;
+  align-items: center;
+}
+
+.ejemplo {
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+
+.inicio__categorias {
+    display:inline;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 30px;
+    position: relative;
+    left: 50%;
+    height: 50%;
+}
+
+
+.inicio__logo {
+    height: 150px;
+    position: relative;
+    left: 50%;
+}
+
+.footer__informacion {
+    margin-inline-start: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: darkviolet;
+    font-size: 150%;
+    text-align: center;
+    position: relative;
+    left: 55%;
+}
+
+.footer__informacion--p {
+    color: black;
+    font-size: 70%;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.footer__informacion--ubicacion {
+    margin: 20px;
+    width: 370px;
+    height: 260px;
+    border-color: black;
+}
+
+
+.botons {
+position: relative;
+right: 1200px; 
+top: 330px;
+font-size: 15px;
+height: 55px;
+background-color:mediumslateblue;
+margin: 10px; 
+padding: 8px;
+border: 2px solid black; 
+display: flex; 
+}
+
+
+/*GRID*/
+
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  position: relative;
+  left: 50%;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+
+/*MEDIA QUERIES MAX*/
+
+
+@media screen and (max-width: 450px) {
+
+
+    .menu {
+        display: block;
+    }
+
+    .margin__imagenes__inicio {
+       display: block;
+
+    }
+
+    .footer__informacion {
+        margin-inline-start: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: darkviolet;
+        font-size: 150%;
+        text-align: center;
+        position: relative;
+        left: 150%;
+
+    }
+
+    .botons {
+        display:none;
+    }
+
+    .footer__informacion--ubicacion {
+        margin: 20px;
+        width: 200px;
+        height: 50%;
+        border-color: black;
+    }
+    
+    .consultas {
+
+        position: relative;
+        left: 60%;
+    
+    }
+
+    .menu__TituloCategorias {
+
+        position: relative;
+        left: 70%;
+        color:darkmagenta;
+    
+    
+    }
+
+
+   }
+   
+  /*MEDIA QUERIES MIN*/
+
+   @media screen and (min-width: 768px) {
+
+
+    .inicio__logo { 
+        height: 1%;
+        width: 40%;
+        position: relative;
+        left: 10%;
+
+    }
+
+    .inicio__categorias {
+      font-size: 110%;
+      background-color: rgb(236, 0, 126);
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+       
+
+         
+    .consultas {
+
+            display: flex;
+            justify-content: space-around;
+            position: relative;
+            left: 25%;
+        }
+
+    
+    
+
+    .consultas__enter {
+
+        position:relative;
+        right: 5%;
+    }
+
+        }
+ 
+
+   
+
+
+
+    
+
+
+
