@@ -8,7 +8,8 @@
     
 }
 #fondo2{
-
+    background: rgb(218,25,123);
+    background: linear-gradient(0deg, rgba(218,25,123,0.8942927512801996) 0%, rgba(217,86,161,1) 50%, rgba(184,45,253,0.8438725832129726) 100%);
 
 }
 
