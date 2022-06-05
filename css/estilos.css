@@ -73,6 +73,11 @@ left: 88%;
 
 .inicio__categorias {
     display:inline;
+    transition: background 3s;
+}
+
+.inicio__categorias:hover {
+    background: rgb(16, 232, 232);
 }
 
 .menu {
@@ -83,7 +88,6 @@ left: 88%;
     left: 50%;
     height: 50%;
 }
-
 
 .inicio__logo {
     height: 150px;
