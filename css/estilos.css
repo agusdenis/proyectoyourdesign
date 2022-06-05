@@ -89,6 +89,7 @@ left: 88%;
     height: 150px;
     position: relative;
     left: 50%;
+    transform: translate(-30%, 20%);
 }
 
 .footer__informacion {
